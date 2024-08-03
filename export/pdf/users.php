@@ -54,7 +54,7 @@ if (isset($_POST['rd']) && isset($_POST['rd'])!=="")
     }
 
     // Output PDF
-    $pdf_file = 'UserRecords.pdf';
+    $pdf_file = '../../../ExportRecords/UserRecords.pdf';
     $pdf->Output('F', $pdf_file);
 
     echo $pdf_file;
