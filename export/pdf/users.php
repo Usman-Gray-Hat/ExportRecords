@@ -32,7 +32,7 @@ if (isset($_POST['rd']) && isset($_POST['rd'])!=="")
     $pdf->AddPage();
     $pdf->SetFont('Arial', 'B', 14);
     $pdf->Cell(0, 10, $heading_text, 0, 1, 'C');
-    $pdf->Ln(10);
+    $pdf->Ln(5);
 
     // Set header
     $pdf->SetFont('Arial', 'B', 12);
